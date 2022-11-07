@@ -1,0 +1,46 @@
+.header-container{
+    position: relative;
+    height: 100vh;
+    width: 100%;
+    background-image: url(../assets/header.jpg);
+    background-position: 30% 20%;
+    background-repeat: no-repeat;
+    overflow: hidden;
+}
+.social-icons{  
+display: flex;
+height: 4rem;
+width: 100%;
+padding: 0 3rem;
+}
+
+.social-icons ul{
+ width: 12%;  
+ display: flex;
+ justify-content: space-between;
+ list-style: none;
+ color: aqua;
+}
+.myReact-icons{
+    color: #fff;
+    font-size: 1.2rem;
+}
+
+.title{
+    height:auto;
+    width: 25%;
+    position: absolute;
+    top: 45%;
+    left: 5%;
+    color: #fff;
+}
+
+.title h1{
+    font-size: 3.2rem;
+    word-spacing: .4rem;
+    line-height: 4rem;
+}
+.title span{
+    font-size: 1.2rem;
+    word-spacing: .2rem;
+}
